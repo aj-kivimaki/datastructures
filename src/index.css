@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #333;
+}
+
+/* - - - HEADER - - - */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 20px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  opacity: 0.7;
+}
+
+.header li {
+  list-style-type: none;
+  display: flex;
+  padding-top: 10px;
+}
+
+.header .link-container {
+  display: flex;
+  gap: 50px;
+}
+
+/* - - - HOME - - - */
+
+.home .app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 79px);
+  background-image: url("https://source.unsplash.com/1600x900/?nature");
+  background-size: cover;
+}
+
+.home .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 420px;
+  min-height: 420px;
+  background-color: rgba(118, 149, 109, 0.85);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.home h2 {
+  font-size: 40px;
+  padding: 40px;
+  color: white;
+}
+
+.home h3 {
+  padding: 30px;
+}
+
+.home a {
+  text-decoration: none;
+}
+
+.home a:hover {
+  opacity: 0.7;
+}
+
+.home li {
+  list-style-type: none;
+}
+
+/* - - - BUBBLE / SELECTION SORT - - - */
+
+.bubble-selection button {
+  border: none;
+  border-radius: 5px;
+  transition: all 0.15s;
+}
+
+.bubble-selection button:hover {
+  background-color: #333;
+  color: white;
+}
+
+.bubble-selection input:focus,
+.bubble-selection button:focus {
+  outline: 3px solid #333;
+}
+
+.bubble-selection .app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 79px);
+  background-image: url("https://source.unsplash.com/1600x900/?nature");
+  background-size: cover;
+}
+
+.bubble-selection .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 420px;
+  min-height: 420px;
+  background-color: rgba(118, 149, 109, 0.85);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.bubble-selection .main h1 {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  padding: 25px;
+}
+
+.bubble-selection .main h2 {
+  font-size: 20px;
+  padding: 25px;
+}
+
+.bubble-selection .input {
+  display: flex;
+  gap: 15px;
+}
+
+.bubble-selection .input input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.bubble-selection .input button {
+  padding: 5px 10px;
+}
+
+.bubble-selection .label h2 {
+  padding-top: 30px;
+  font-size: 26px;
+}
+
+.bubble-selection .sort {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bubble-selection .sort button {
+  padding: 15px 30px;
+  margin: 25px 10px;
+}
+
+/* - - - QUEUE - - - */
+
+.queue button {
+  border: none;
+  border-radius: 5px;
+  transition: all 0.15s;
+}
+
+.queue button:hover {
+  background-color: #333;
+  color: white;
+}
+
+.queue input:focus,
+.queue button:focus {
+  outline: 3px solid #333;
+}
+
+.queue .app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 79px);
+  background-image: url("https://source.unsplash.com/1600x900/?nature");
+  background-size: cover;
+}
+
+.queue .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 250px;
+  min-height: 300px;
+  background-color: rgba(118, 149, 109, 0.85);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.queue .main h1 {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  padding: 25px;
+}
+
+.queue .main h2 {
+  font-size: 20px;
+  padding: 25px;
+}
+
+.queue .input {
+  display: flex;
+  gap: 15px;
+}
+
+.queue .input input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.queue .input button {
+  padding: 5px 10px;
+}
+
+.queue .label h2 {
+  padding-top: 30px;
+  font-size: 26px;
+}
+
+/* - - - STACK - - - */
+
+.stack button {
+  border: none;
+  border-radius: 5px;
+  transition: all 0.15s;
+}
+
+.stack button:hover {
+  background-color: #333;
+  color: white;
+}
+
+.stack input:focus,
+.stack button:focus {
+  outline: 3px solid #333;
+}
+
+.stack .app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 79px);
+
+  background-image: url("https://source.unsplash.com/1600x900/?nature");
+  background-size: cover;
+}
+
+.stack .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 250px;
+  min-height: 300px;
+  background-color: rgba(118, 149, 109, 0.85);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.stack .main h1 {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  padding: 25px;
+}
+
+.stack .main h2 {
+  font-size: 20px;
+  padding: 25px;
+}
+
+.stack .input {
+  display: flex;
+  gap: 15px;
+}
+
+.stack .input input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.stack .input button {
+  padding: 5px 10px;
+}
+
+.stack .label h2 {
+  padding-top: 30px;
+  font-size: 26px;
+}
