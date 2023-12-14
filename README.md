@@ -1,3 +1,5 @@
+https://datastructures-all-in-one.netlify.app/
+
 # Assignment 2
 
 Bubble sort / Selection sort are simplest sorting algorithms.
